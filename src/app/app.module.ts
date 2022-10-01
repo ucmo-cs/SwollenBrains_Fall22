@@ -15,13 +15,15 @@ import { HeaderComponent } from './project-page/header-component/header-componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StatusComponent } from './status/status-component/status-component.component';
 import { BackgroundComponent } from './project-page/background/background.component';
+import { ImageDocumentationComponent } from './image-documentation/image-documentation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     StatusComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    ImageDocumentationComponent
   ],
   imports: [
     RouterModule,
