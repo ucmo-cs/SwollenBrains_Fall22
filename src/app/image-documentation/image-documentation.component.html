@@ -6,12 +6,12 @@
             <p>Images & Documentation</p>
         </div>
         <div class="title-right">
-            <p>+</p>
+            <p>{{ isExpanded ? '-' : '+' }}</p>
         </div>
         <hr>
     </div>
     
-    <div *ngIf="isExpanded" class="info">
+    <div *ngIf="isExpanded" class="info" [@View]>
         <div *ngfor="let name of imgNames">
             <!-- doesn't work now but will do what below does  -->
             <img src={{name}}>

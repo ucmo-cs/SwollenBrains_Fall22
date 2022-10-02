@@ -12,12 +12,16 @@ import {MatTableDataSource} from '@angular/material/table';
 export class StatusComponent implements AfterViewInit {
   displayedColumns: string[] = ['Date', 'Name', 'Report'];
   dataSource = new MatTableDataSource<ReportElement>(ELEMENT_DATA);
-
+  isExpanded: boolean = false;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
+  }
+
+  onClick(){
+    this.isExpanded = !this.isExpanded;
   }
 }
 

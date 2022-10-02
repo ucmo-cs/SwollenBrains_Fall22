@@ -2,7 +2,7 @@
 
 .border{
     padding: 10px;
-    overflow: auto;
+    /* overflow: auto; */
     max-height: 450px;
     border: 1px groove;
     width: 39vw;

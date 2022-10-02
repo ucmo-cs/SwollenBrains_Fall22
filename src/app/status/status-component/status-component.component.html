@@ -1,11 +1,11 @@
 
 <div class="box-container">
   <div class="table-container">
-  <div class="status-header">
+  <div (click)="onClick()" class="status-header">
     <h3> Status Updates </h3>
     <div class="minimize">  </div>
   </div>
-<div class="mat-elevation-z8">
+<div *ngIf="isExpanded" class="mat-elevation-z8">
   <table mat-table [dataSource]="dataSource">
 
     <!-- Date Column -->
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-<div class="report-filter">
+<div *ngIf="isExpanded" class="report-filter">
   <button class="filter-btn">
       Filter
     <mat-icon class="filter"> filter_list </mat-icon>
@@ -45,7 +45,7 @@
   </mat-paginator>
 </div>
 
-      <div class="btn-container">
+      <div *ngIf="isExpanded" class="btn-container">
         <button class="add-report">
           <span class="text">Add Report</span>
         </button>
