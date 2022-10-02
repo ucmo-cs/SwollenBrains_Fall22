@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-*{
-    color: #E0AA51;
-    font-family: "Montserrat";
-}
-
 .border{
     padding: 10px;
+    overflow: auto;
+    max-height: 450px;
+    border: 1px groove;
+    width: 39vw;
+    margin-right: 8%;
+    margin-bottom: 15px;
+    color: #E0AA51;
+    font-family: "Montserrat";
+
 }
 
 .title{
@@ -14,7 +18,7 @@
     margin: 0 auto;
     color: #E0AA51;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .title-left{
