@@ -25,7 +25,11 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@angular-devkit/build-angular": "^14.2.4",
+=======
+    "@angular-devkit/build-angular": "^14.2.1",
+>>>>>>> master
     "@angular/cli": "~14.2.1",
     "@angular/compiler-cli": "^14.0.0",
     "@types/jasmine": "~4.0.0",
@@ -37,4 +41,8 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.7.2"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

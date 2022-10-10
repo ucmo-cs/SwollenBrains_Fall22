@@ -15,15 +15,22 @@ import { HeaderComponent } from './project-page/header-component/header-componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StatusComponent } from './status/status-component/status-component.component';
 import { BackgroundComponent } from './project-page/background/background.component';
+<<<<<<< HEAD
 import { ProjectInfoComponent } from './project-info-component/Project-Info.components';
+=======
+>>>>>>> master
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     StatusComponent,
+<<<<<<< HEAD
     BackgroundComponent,
     ProjectInfoComponent
+=======
+    BackgroundComponent
+>>>>>>> master
   ],
   imports: [
     RouterModule,
